@@ -32,4 +32,4 @@ jobs:
           context: .
           push: true
           # Replace 'your-dockerhub-username' with your actual username if not using the secret for the image name part
-          tags: ${{ secrets.DOCKER_USERNAME }}/simple-fastapi:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/python-fastapi:latest
